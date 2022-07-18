@@ -12,13 +12,15 @@ body {
 }
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.top-container {
+.container {
   background-color: #ffffff;
   width: 870px;
-  height: 679px;
   padding: 33px;
+  border-radius: 5px;
+  margin-bottom: 21px;
 }
 
 .top-players {
@@ -53,6 +55,9 @@ main {
 /* -------------
  Blog part start 
  ---------------- */
+.top-blogs {
+  margin-top: 25px;
+}
 .blogs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -78,5 +83,5 @@ main {
 }
 .blog-author a {
   text-decoration: none;
-  color: #562EFF;
+  color: #562eff;
 }
